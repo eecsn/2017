@@ -90,12 +90,20 @@ feed:
   #accessKeyId: LTAIvt8x0b98MqEx
   #accessKeySecret: QaK5oFg4bQcisABpMC4zKbygZNxH5i
 #deploy:
-  #type: git 
-  #repo: https://github.com/eecsn/2017.git 
-  #repo: https://github.com/hexojs/hexo.git
-  #branch: [master]
-  #message: [welcome]
+  #type: git
+  #repo: <git@github.com:eecsn/2017.git>
+  #branch: [backup]
+  #message: [message]
+  #name: [haroldxuan]
+  #email: [eecsn2013@gmail.com]
+  #extend_dirs: [logs]
+  #ignore_hidden: false # default is true
+  #ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
 backup:
-    type: git
-    repository:
-       github: git@github.com:eecsn/2017.git,backup
+  type: git
+  repository:
+      github: git@github.com:eecsn/2017.git,backup
+admin:
+  username: eecsnadmin
+  password_hash: $2a$04$lIJHMEIlRCWAWLIiseT6peSh97VwQEpY0aU88XReduilHHinvENlK
+  secret: eecser
