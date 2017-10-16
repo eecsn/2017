@@ -102,7 +102,7 @@ feed:
 backup:
   type: git
   repository:
-      git: git@github.com:eecsn/2017.git,backup
+      github: git@github.com:eecsn/2017.git,backup
 admin:
   username: eecsnadmin
   password_hash: $2a$04$lIJHMEIlRCWAWLIiseT6peSh97VwQEpY0aU88XReduilHHinvENlK
